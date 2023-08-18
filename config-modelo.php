@@ -16,5 +16,5 @@ define('BANCO','nome_banco');
 // Configuração do BOT no Telegram
 define('DONO',123456); //Substituir com Telegram ID do dono do BOT que pode ser obtido via telegram através do bot: @userinfobot
 define('APIKEY',"123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"); //Substituir com APIKEY do BOT que pode ser obtido via telegram através do bot: @botfather
-define('API',"https://api.telegram.org/" . APIKEY . "/"); //Url para requisições ao telegram, não alterar a não ser que saiba o que está fazendo.
+define('API',"https://api.telegram.org/bot" . APIKEY . "/"); //Url para requisições ao telegram, não alterar a não ser que saiba o que está fazendo.
 ?>
